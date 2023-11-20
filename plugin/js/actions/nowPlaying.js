@@ -3,10 +3,9 @@ class NowPlayingAction extends Action {
 
   setCurrentPlayback = (playback, image) => {
     this.foobarCurrentPlayback = playback;
-    this.currentArtwork = image;
   };
 
-  onWillAppear = (coordinates) => {
+  onWillAppear = async (coordinates) => {
     if (this.foobarCurrentPlayback.playbackState === "stopped") {
       websocketUtils.setTitle(this.context, "Stopped");
     } else {
@@ -18,11 +17,11 @@ class NowPlayingAction extends Action {
         this.context
       );
 
-      websocketUtils.setImage(
-        this.context,
-        this.currentArtwork
-      )
+      const image = await foobar.getCurrentArtwork(
+        this.foobarCurrentPlayback.activeItem.playlistId,
+        this.foobarCurrentPlayback.activeItem.index
+      );
+      websocketUtils.setImage(this.context, image);
     }
-    
   };
 }
