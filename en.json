@@ -1,39 +1,39 @@
 {
   "Description": "A foobar2000 integration to control your music playback with real-time feedback. The beefweb foobar200 plugin is required.",
   "Name": "Foobar2000",
-  "com.davidborzek.foobar2000.action": {
+  "com.cliffhuang0611.foobar2000.action": {
     "Name": "Play / pause",
     "Tooltip": "Toggle play / pause."
   },
-  "com.davidborzek.foobar2000.togglemute": {
+  "com.cliffhuang0611.foobar2000.togglemute": {
     "Name": "Toggle mute",
     "Tooltip": "Toggle mute."
   },
-  "com.davidborzek.foobar2000.currentvolume": {
+  "com.cliffhuang0611.foobar2000.currentvolume": {
     "Name": "Current volume",
     "Tooltip": "Shows the current volume."
   },
-  "com.davidborzek.foobar2000.skipforward": {
+  "com.cliffhuang0611.foobar2000.skipforward": {
     "Name": "Skip forward",
     "Tooltip": "Skip to the next song."
   },
-  "com.davidborzek.foobar2000.skipbackward": {
+  "com.cliffhuang0611.foobar2000.skipbackward": {
     "Name": "Skip backwards",
     "Tooltip": "Skip to the previous song."
   },
-  "com.davidborzek.foobar2000.volumeup": {
+  "com.cliffhuang0611.foobar2000.volumeup": {
     "Name": "Volume up",
     "Tooltip": "Turn the volume up."
   },
-  "com.davidborzek.foobar2000.volumedown": {
+  "com.cliffhuang0611.foobar2000.volumedown": {
     "Name": "Volume down",
     "Tooltip": "Turn the volume down."
   },
-  "com.davidborzek.foobar2000.stop": {
+  "com.cliffhuang0611.foobar2000.stop": {
     "Name": "Stop",
     "Tooltip": "Stops the playback."
   },
-  "com.davidborzek.foobar2000.nowplaying": {
+  "com.cliffhuang0611.foobar2000.nowplaying": {
     "Name": "Now playing",
     "Tooltip": "Shows the current playback (artist / title)."
   }

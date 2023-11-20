@@ -1,5 +1,5 @@
 class SkipForwardAction extends Action {
-  type = "com.davidborzek.foobar2000.skipforward";
+  type = "com.cliffhuang0611.foobar2000.skipforward";
 
   onKeyDown = (coordinates, state) => {
     foobar.skipForward((success, message) => {

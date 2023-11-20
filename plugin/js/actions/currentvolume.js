@@ -1,5 +1,5 @@
 class CurrentVolumeAction extends Action {
-  type = "com.davidborzek.foobar2000.currentvolume";
+  type = "com.cliffhuang0611.foobar2000.currentvolume";
 
   setCurrentVolume = (volume) => {
     this.foobarCurrentVolume = volume;

@@ -4,7 +4,7 @@ const PlaybackState = Object.freeze({
 });
 
 class PlayPauseAction extends Action {
-  type = "com.davidborzek.foobar2000.playpause";
+  type = "com.cliffhuang0611.foobar2000.playpause";
 
   setPlaybackState = (playbackState) => {
     this.foobarPlaybackState = playbackState;

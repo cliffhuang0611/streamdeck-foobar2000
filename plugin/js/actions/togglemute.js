@@ -4,7 +4,7 @@ const MuteState = Object.freeze({
 });
 
 class ToggleMuteAction extends Action {
-  type = "com.davidborzek.foobar2000.togglemute";
+  type = "com.cliffhuang0611.foobar2000.togglemute";
 
   setMuteStatus = (muted) => {
     this.foobarMuteState = muted;

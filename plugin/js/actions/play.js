@@ -1,5 +1,5 @@
 class PlayAction extends Action {
-  type = "com.davidborzek.foobar2000.play";
+  type = "com.cliffhuang0611.foobar2000.play";
 
   onKeyDown = (coordinates, state) => {
     foobar.triggerPlay((success, msg) => {

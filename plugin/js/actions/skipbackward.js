@@ -1,5 +1,5 @@
 class SkipBackwardAction extends Action {
-  type = "com.davidborzek.foobar2000.skipbackward";
+  type = "com.cliffhuang0611.foobar2000.skipbackward";
 
   onKeyDown = (coordinates, state) => {
     foobar.skipBackward((success, message) => {

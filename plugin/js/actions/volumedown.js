@@ -1,5 +1,5 @@
 class VolumeDownAction extends Action {
-  type = "com.davidborzek.foobar2000.volumedown";
+  type = "com.cliffhuang0611.foobar2000.volumedown";
 
   setVolume = (volume) => {
     this.foobarCurrentVolume = volume;

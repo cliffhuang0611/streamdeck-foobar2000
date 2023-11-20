@@ -5,8 +5,8 @@ let globalSettings = {};
 let settings = {};
 
 const actions = Object.freeze({
-  volumeUp: "com.davidborzek.foobar2000.volumeup",
-  volumeDown: "com.davidborzek.foobar2000.volumedown",
+  volumeUp: "com.cliffhuang0611.foobar2000.volumeup",
+  volumeDown: "com.cliffhuang0611.foobar2000.volumedown",
 });
 
 const connectElgatoStreamDeckSocket = (
@@ -57,7 +57,7 @@ const connectElgatoStreamDeckSocket = (
   const gettingStartedLink = document.getElementById("getting-started-link");
   gettingStartedLink.onclick = () => {
     websocketUtils.openUrl(
-      "https://github.com/davidborzek/streamdeck-foobar2000/blob/master/docs/getting-started.md"
+      "https://github.com/cliffhuang0611/streamdeck-foobar2000/blob/master/docs/getting-started.md"
     );
   };
 

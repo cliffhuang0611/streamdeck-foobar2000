@@ -1,5 +1,5 @@
 class PauseAction extends Action {
-  type = "com.davidborzek.foobar2000.pause";
+  type = "com.cliffhuang0611.foobar2000.pause";
 
   onKeyDown = (coordinates, state) => {
     foobar.triggerPause((success, msg) => {

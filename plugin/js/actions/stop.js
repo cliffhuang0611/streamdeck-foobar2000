@@ -1,5 +1,5 @@
 class StopAction extends Action {
-  type = "com.davidborzek.foobar2000.stop";
+  type = "com.cliffhuang0611.foobar2000.stop";
 
   onKeyDown = (coordinates, state) => {
     foobar.stop((success, message) => {

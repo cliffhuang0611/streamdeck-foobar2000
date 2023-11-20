@@ -12,7 +12,7 @@
 
 ## Installation
 
-Download the plugin from the [releases](https://github.com/davidborzek/streamdeck-foobar2000/releases) or from the Stream Deck Store.
+Download the plugin from the [releases](https://github.com/cliffhuang0611/streamdeck-foobar2000/releases) or from the Stream Deck Store.
 
 For further instructions follow the [Getting started](docs/getting-started.md) page.
 

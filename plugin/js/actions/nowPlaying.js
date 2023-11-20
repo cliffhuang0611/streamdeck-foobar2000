@@ -1,5 +1,5 @@
 class NowPlayingAction extends Action {
-  type = "com.davidborzek.foobar2000.nowplaying";
+  type = "com.cliffhuang0611.foobar2000.nowplaying";
 
   setCurrentPlayback = (playback, image) => {
     this.foobarCurrentPlayback = playback;

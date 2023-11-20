@@ -17,7 +17,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Toggle play / pause.",
-      "UUID": "com.davidborzek.foobar2000.playpause"
+      "UUID": "com.cliffhuang0611.foobar2000.playpause"
     },
     {
       "Icon": "images/actions/play/play",
@@ -31,7 +31,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Trigger play",
-      "UUID": "com.davidborzek.foobar2000.play"
+      "UUID": "com.cliffhuang0611.foobar2000.play"
     },
     {
       "Icon": "images/actions/pause/pause",
@@ -45,7 +45,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Trigger pause",
-      "UUID": "com.davidborzek.foobar2000.pause"
+      "UUID": "com.cliffhuang0611.foobar2000.pause"
     },
     {
       "Icon": "images/actions/toggleMute/toggleMute",
@@ -64,7 +64,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Toggle mute.",
-      "UUID": "com.davidborzek.foobar2000.togglemute"
+      "UUID": "com.cliffhuang0611.foobar2000.togglemute"
     },
     {
       "Icon": "images/actions/currentVolume/currentVolume",
@@ -78,7 +78,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current volume.",
-      "UUID": "com.davidborzek.foobar2000.currentvolume"
+      "UUID": "com.cliffhuang0611.foobar2000.currentvolume"
     },
     {
       "Icon": "images/actions/skipForward/skipForward",
@@ -92,7 +92,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Skip to the next song.",
-      "UUID": "com.davidborzek.foobar2000.skipforward"
+      "UUID": "com.cliffhuang0611.foobar2000.skipforward"
     },
     {
       "Icon": "images/actions/skipBackward/skipBackward",
@@ -106,7 +106,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Skip to the previous song.",
-      "UUID": "com.davidborzek.foobar2000.skipbackward"
+      "UUID": "com.cliffhuang0611.foobar2000.skipbackward"
     },
     {
       "Icon": "images/actions/volumeUp/volumeUp",
@@ -120,7 +120,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Turn the volume up.",
-      "UUID": "com.davidborzek.foobar2000.volumeup"
+      "UUID": "com.cliffhuang0611.foobar2000.volumeup"
     },
     {
       "Icon": "images/actions/volumeDown/volumeDown",
@@ -134,7 +134,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Turn the volume down.",
-      "UUID": "com.davidborzek.foobar2000.volumedown"
+      "UUID": "com.cliffhuang0611.foobar2000.volumedown"
     },
     {
       "Icon": "images/actions/stop/stop",
@@ -148,7 +148,7 @@
       ],
       "SupportedInMultiActions": true,
       "Tooltip": "Stops the playback.",
-      "UUID": "com.davidborzek.foobar2000.stop"
+      "UUID": "com.cliffhuang0611.foobar2000.stop"
     },
     {
       "Icon": "images/actions/nowPlaying/nowPlaying",
@@ -162,16 +162,16 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Shows the current playback (artist / title).",
-      "UUID": "com.davidborzek.foobar2000.nowplaying"
+      "UUID": "com.cliffhuang0611.foobar2000.nowplaying"
     }
   ],
   "SDKVersion": 2,
-  "Author": "David Borzek",
+  "Author": "Cliff Huang",
   "CodePath": "plugin/index.html",
   "Description": "A foobar2000 integration to control your music playback with real-time feedback. The beefweb foobar200 plugin is required.",
   "Name": "Foobar2000",
   "Icon": "images/plugin/plugin",
-  "URL": "https://github.com/davidborzek/streamdeck-foobar2000",
+  "URL": "https://github.com/cliffhuang0611/streamdeck-foobar2000",
   "Category": "Foobar2000",
   "CategoryIcon": "images/plugin/category",
   "PropertyInspectorPath": "pi/index.html",

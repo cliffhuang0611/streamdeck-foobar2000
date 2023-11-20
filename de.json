@@ -1,39 +1,39 @@
 {
   "Description": "Eine foobar2000 Integration zum steuern deiner Musikwiedergabe mit Feedback in Echtzeit. Das foobar2000 Plugin beefweb muss installiert sein.",
   "Name": "Foobar2000",
-  "com.davidborzek.foobar2000.action": {
+  "com.cliffhuang0611.foobar2000.action": {
     "Name": "Play / pause",
     "Tooltip": "Schalter zum wechseln zwischen Play und Pause."
   },
-  "com.davidborzek.foobar2000.togglemute": {
+  "com.cliffhuang0611.foobar2000.togglemute": {
     "Name": "Ton an / aus",
     "Tooltip": "Ton an- oder ausschalten."
   },
-  "com.davidborzek.foobar2000.currentvolume": {
+  "com.cliffhuang0611.foobar2000.currentvolume": {
     "Name": "Aktuelle Lautstärke",
     "Tooltip": "Zeigt die aktuelle Lautstärke an."
   },
-  "com.davidborzek.foobar2000.skipforward": {
+  "com.cliffhuang0611.foobar2000.skipforward": {
     "Name": "Vorwärts springen",
     "Tooltip": "Zum nächsten Song springen."
   },
-  "com.davidborzek.foobar2000.skipbackward": {
+  "com.cliffhuang0611.foobar2000.skipbackward": {
     "Name": "Rückwärts springen",
     "Tooltip": "Zum vorherigen Song springen."
   },
-  "com.davidborzek.foobar2000.volumeup": {
+  "com.cliffhuang0611.foobar2000.volumeup": {
     "Name": "Laustärke plus",
     "Tooltip": "Erhöht die Lautstärke."
   },
-  "com.davidborzek.foobar2000.volumedown": {
+  "com.cliffhuang0611.foobar2000.volumedown": {
     "Name": "Lautstärke minus",
     "Tooltip": "Verringert die Lautstärke."
   },
-  "com.davidborzek.foobar2000.stop": {
+  "com.cliffhuang0611.foobar2000.stop": {
     "Name": "Stop",
     "Tooltip": "Stoppt die Wiedergabe."
   },
-  "com.davidborzek.foobar2000.nowplaying": {
+  "com.cliffhuang0611.foobar2000.nowplaying": {
     "Name": "Spielt gerade",
     "Tooltip": "Zeigt die aktuelle Wiedergabe an (Interpret / Titel)."
   }
